@@ -12,7 +12,7 @@ report, and carry the same figure numbers.
 
 ## Technical Report 2
 
- []( figure4.png ) |
+ ![figure]( figure4.png ) |
  --- |
  Please Test|
 

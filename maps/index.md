@@ -14,10 +14,9 @@ report, and carry the same figure numbers.
 
 ## Online Maps
 
-[![Figure 3](figure3.png")](cropland.html) |
+[![Figure 2](figure2.png)](figure2.html) |
  --- |
- Figure 3. Overview of cropland input and output (Gg N/yr) in the study area (Tulare Lake Basin and
-Salinas Valley) in 2005. |
+ Figure 2. Overview of Crop types for 2010. |
 
  [![Figure 4](figure4.png)](fertilizer.html) |
  --- |

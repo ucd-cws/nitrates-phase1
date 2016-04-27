@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script type="text/javascript" language="javascript" src="//cstars.github.io/ceres-maps/cmv/cmv.nocache.js"></script>
+    <script type="text/javascript" language="javascript">
+    var mapConfig = {
+        title: "{{ page.title }}",
+        zoom: 8,
+        center: [
+            -121.01,
+            38.22
+        ],
+        selectedBasemap: "d94dcdbe78e141c2b2d3a91d5ca8b9c9",
+        basemaps: [
+
+        ],
+        searchServices: [
+            {
+                url: "http://tasks.arcgis.com/ArcGIS/rest/services/WorldLocator/GeocodeServer",
+                type: "geocoder"
+            }
+        ],
+        searchColor: {
+            outline: {
+                r: 255,
+                g: 169,
+                b: 0,
+                a: 1
+            },
+            fill: {
+                r: 255,
+                g: 169,
+                b: 0,
+                a: .025
+            }
+        },
+        "datalayers":[
+            {% for service in page.services %}
+                {
+                    "type": "mapserver",
+                    "label": "{{ service.label }}",
+                    "url": "{{ service.url }}",
+                    "legendUrl":"{{ service.url }}/legend?f=json",
+                    "showLegendOnLoad": {{ service.showLegendOnLoad | default: false }},
+                    "visible": {{ service.visible | default: false }},
+                    "opacity": {{ service.opacity | default: 0.3 }}
+                }{% if forloop.index < page.services.size %}, {% endif %}
+            {% endfor %}
+        ],
+        provider: {
+            icon: "icon.png",
+            popup: "Powered By: <a href='http://groundwaternitrate.ucdavis.edu'>UC Davis Report on Groundwater Nitrates</a>",
+            url: "http://groundwaternitrate.ucdavis.edu"
+        },
+        geometryServer: "http://atlas.cws.ucdavis.edu/arcgis/rest/services/Geometry/GeometryServer",
+        identifyTool: true,
+        enableCeresAdditions: true,
+        print: {
+            server: "http://sampleserver6.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+            defaultTitle: "Groundwater Nitrates - Export",
+            defaultFormat: "PNG32",
+            defaultTemplate: "template_test"
+        }
+    }
+
+    </script>
+  </head>
+  <body class="claro" style="overflow:hidden">
+    <!-- RECOMMENDED if your web app will not function without JavaScript enabled -->
+    <noscript>
+      <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+        Your web browser must have JavaScript enabled
+        in order for this application to display correctly.
+      </div>
+    </noscript>
+
+  </body>
+</html>

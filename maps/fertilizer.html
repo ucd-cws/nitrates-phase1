@@ -1,154 +1,21 @@
 ---
 title: fertilizer
-layout: map
+layout: service-map
+services: 
+    - url: http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_2050/MapServer
+      label: 2050 Fertilizer
+    - url: http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_2035/MapServer
+      label: 2035 Fertilizer
+    - url: http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_2020/MapServer
+      label: 2020 Fertilizer
+    - url: http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_2005/MapServer
+      label: 2005 Fertilizer
+    - url: http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_1990/MapServer
+      label: 1990 Fertilizer
+    - url: http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_1975/MapServer
+      label: 1975 Fertilizer
+    - url: http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_1960/MapServer
+      label: 1960 Fertilizer
+    - url: http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_1945/MapServer
+      label: 1945 Fertilizer
 ---
-<script type="text/javascript" language="javascript">
-
-var mapConfig = {
-    title: "Fertilizer Loading",
-    //anchor: "GadgetPanel",
-    zoom: 8,
-    center: [
-        -121.01,
-        38.22
-    ],
-    selectedBasemap: "d94dcdbe78e141c2b2d3a91d5ca8b9c9",
-    basemaps: [
-
-    ],
-    searchServices: [
-        {
-            url: "http://tasks.arcgis.com/ArcGIS/rest/services/WorldLocator/GeocodeServer",
-            type: "geocoder"
-        }
-    ],
-    searchColor: {
-        outline: {
-            r: 255,
-            g: 169,
-            b: 0,
-            a: 1
-        },
-        fill: {
-            r: 255,
-            g: 169,
-            b: 0,
-            a: .025
-        }
-    },
-
-"datalayers":[
-      {
-        "type":"mapserver",
-        "label":"2050 Fertilizer",
-        "url":"http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_2050/MapServer",
-        "legendUrl":"http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_2050/MapServer/legend?f=json",
-        "showLegendOnLoad":false,
-        "visible":false,
-        "opacity":0.3,
-        "isTiled":false,
-        "hasTileOption":false,
-        "legendIsGradient":false
-      },
-      {
-        "type":"mapserver",
-        "label":"2035 Fertilizer",
-        "url":"http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_2035/MapServer",
-        "legendUrl":"http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_2035/MapServer/legend?f=json",
-        "showLegendOnLoad":false,
-        "visible":false,
-        "opacity":0.3,
-        "isTiled":false,
-        "hasTileOption":false,
-        "legendIsGradient":false
-      },
-      {
-        "type":"mapserver",
-        "label":"2020 Fertilizer",
-        "url":"http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_2020/MapServer",
-        "legendUrl":"http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_2020/MapServer/legend?f=json",
-        "showLegendOnLoad":false,
-        "visible":false,
-        "opacity":0.3,
-        "isTiled":false,
-        "hasTileOption":false,
-        "legendIsGradient":false
-      },
-      {
-        "type":"mapserver",
-        "label":"2005 Fertilizer",
-        "url":"http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_2005/MapServer",
-        "legendUrl":"http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_2005/MapServer/legend?f=json",
-        "showLegendOnLoad":false,
-        "visible":true,
-        "opacity":0.3,
-        "isTiled":false,
-        "hasTileOption":false,
-        "legendIsGradient":false
-      },
-      {
-        "type":"mapserver",
-        "label":"1990 Fertilizer",
-        "url":"http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_1990/MapServer",
-        "legendUrl":"http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_1990/MapServer/legend?f=json",
-        "showLegendOnLoad":false,
-        "visible":false,
-        "opacity":0.3,
-        "isTiled":false,
-        "hasTileOption":false,
-        "legendIsGradient":false
-      },
-      {
-        "type":"mapserver",
-        "label":"1975 Fertilizer",
-        "url":"http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_1975/MapServer",
-        "legendUrl":"http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_1975/MapServer/legend?f=json",
-        "showLegendOnLoad":false,
-        "visible":false,
-        "opacity":0.3,
-        "isTiled":false,
-        "hasTileOption":false,
-        "legendIsGradient":false
-      },
-      {
-        "type":"mapserver",
-        "label":"1960 Fertilizer",
-        "url":"http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_1960/MapServer",
-        "legendUrl":"http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_1960/MapServer/legend?f=json",
-        "showLegendOnLoad":false,
-        "visible":false,
-        "opacity":0.3,
-        "isTiled":false,
-        "hasTileOption":false,
-        "legendIsGradient":false
-      },
-      {
-        "type":"mapserver",
-        "label":"1945 Fertilizer",
-        "url":"http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_1945/MapServer",
-        "legendUrl":"http://atlas.cws.ucdavis.edu/arcgis/rest/services/nitrogen_fertilizer/Nfertilizer_1945/MapServer/legend?f=json",
-        "showLegendOnLoad":false,
-        "visible":false,
-        "opacity":0.3,
-        "isTiled":false,
-        "hasTileOption":false,
-        "legendIsGradient":false
-      },
-    ],
-    provider: {
-        icon: "icon.png",
-        popup: "Powered By: <a href='http://groundwaternitrate.ucdavis.edu'>UC Davis Report on Groundwater Nitrates</a>",
-        url: "http://groundwaternitrate.ucdavis.edu"
-    },
-    geometryServer: "http://atlas.cws.ucdavis.edu/arcgis/rest/services/Geometry/GeometryServer",
-    identifyTool: true,
-    enableCeresAdditions: true,
-    print: {
-        server: "http://sampleserver6.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
-        defaultTitle: "CeresMaps - Export",
-        defaultFormat: "PNG32",
-        defaultTemplate: "template_test"
-    }
-}
-
-</script>

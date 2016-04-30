@@ -26,15 +26,6 @@ report, and carry the same figure numbers.
  --- |
  Figure 5. Current annual nitrogen removal rate in harvested materials.|
 
- [![Figure 6](figure6.png)](null.html) |
- --- |
- Figure 6. Nitrogen application reduction needed to reduce groundwater nitrate loading to less than 35
-kg N/ha/crop, compared with average nitrogen applied (synthetic fertilizer and manure) and nitrogen
-harvested. |
-
- [![Figure 7](figure7.png)](figure7.html) |
- --- |
- Figure 7. Estimated historical agricultural development in the study area (not including alfalfa) |
 
  [![Figure 8](figure8.png)](figure8.html) |
  --- |

@@ -22,7 +22,7 @@ report, and carry the same figure numbers.
  --- |
  Figure 4. Current typical annual fertilization rates (1 kg/ha/yr = 1.1 lbs/ac/yr) in irrigated agricultural cropland of the study area. |
 
- [![Figure 5](figure5.png)](null.html) |
+ [![Figure 5](figure5.png)](figure5.html) |
  --- |
  Figure 5. Current annual nitrogen removal rate in harvested materials.|
 

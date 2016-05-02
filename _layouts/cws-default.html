@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{page.title}}</title>
+        
+        {% include cws-head.html %}
+        
+    </head>
+    <body class="navbar-is-fixed-top">
+    
+      {% include cws-header.html %}
+      
+      {% if page.navigation %}
+        <div class="main-container container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="list-group">
+                        {% for nav in page.navigation %}
+                            <a href="#{{nav.id}}" class="list-group-item">{{nav.label}}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    {{content}}
+                </div>
+            </div>
+        </div>
+      {% else %}
+        <div class="main-container container">
+            {{content}}
+        </div>
+      {% endif %}
+      
+
+      
+      {% include cws-footer.html %}
+    
+    </body>
+</html>

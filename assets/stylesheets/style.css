@@ -1,0 +1,305 @@
+/**
+ * Place your custom styles here.
+ */
+@font-face {
+  font-family: LeagueGothic;
+  src: url("./League_Gothic.otf") format("opentype");
+}
+
+.submitted a.username {
+  color: #BF9900;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  clear: both;
+}
+
+.submitted {
+  color: #6E5300;
+  font-size: smaller;
+  margin-bottom: 8px;
+}
+.field-name-field-news-image {
+  display: block;
+  float: left;
+  padding: 0 12px 12px 0;
+}
+.field-type-entityreference h2 {
+  font-size: 22px;
+}
+
+#block-aggregator-feed-1,
+#block-block-48 {
+  margin-top: 24px;
+}
+#block-aggregator-feed-1 ul {
+  padding-left: 0px;
+  list-style-type: none;
+}
+#block-aggregator-feed-1 ul li {
+  margin-left: 15px;
+  text-indent: -14px;
+  margin-bottom: 3px;
+}
+#block-aggregator-feed-1 ul li:before {
+   content: "\00BB";
+   padding-right: 5px;
+}
+.region-sidebar-second .block {
+   margin-bottom: 24px;
+}
+#node-13 ul {
+  padding-left: 22px;
+}
+.about-img {
+   width: 100px;
+}
+.about-img,
+.field-name-field-researcharea-image img,
+.views-field-field-news-image img,
+.field-name-field-org-logo img,
+.view-display-id-archive .view-field-field-news-image img,
+.field-name-field-proj-image img,
+.views-field-field-proj-image img,
+.view-id-project_feature img {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 8px;
+}
+.field-name-field-user-image {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 8px;
+}
+.view-data-links .views-row {
+    height: 90px;
+}
+.views-field-field-proj-image {
+    clear: left;
+}
+.views-field-field-news-image {
+  margin-bottom: 8px;
+}
+
+/* Generic Block overrides */
+.block-views h2 {
+  font-size: 24px;
+}
+
+/* Views overrides */
+.views-table th .img-responsive {
+  display: inline;
+  padding-left: 3px;
+}
+
+/* Biblio Module CSS overrides */
+#biblio-header .img-responsive {
+  display: inline;
+  padding-left; 3px;
+}
+.list-inline .img-responsive {
+  display: inline;
+}
+
+article footer {
+  margin-top: 12px;
+  background-color: #eee;
+  padding: 12px 0 4px 8px;
+}
+
+.cws-footer .footer {
+  border-top: 0px solid #ddd;
+  padding-top: 24px;
+  margin-top: 0;
+  color: #d0d0d0;
+}
+.cws-footer {
+  border-top: 1px solid #222;
+  background-color: #004480;
+  margin-top: 32px;
+}
+.cws-footer a {
+  color: #76e6f3;
+}
+#footer-contact {
+display: block;
+float:left;
+text-align: left;
+border: 0px solid black;
+width: 240px;
+margin-left:16px;
+font-size: 12px;
+}
+
+#footer-media {
+display: block;
+float:left;
+text-align: left;
+border: 0px solid black;
+width: 230px;
+margin-left:16px;
+font-size: 12px;
+}
+
+#footer-login {
+display: block;
+float: right;
+width: 220px;
+margin-right: 20px;
+font-size: 12px;
+}
+
+#footer-links {
+display: block;
+float:left;
+width: 220px;
+text-align: left;
+font-size: 12px;
+}
+#footer-links ul {
+  padding-left: 24px;
+}
+
+.footer-regents {
+display: block;
+width: 100%;
+text-align: center;
+border-top: #ddd solid 1px;
+margin-top: 12px;
+padding-top: 8px;
+}
+
+.region-sidebar-second h2 {
+  font-size: 24px;
+}
+
+#block-block-13 {
+  /* background-image: url("/files/images/logos/CWSlogo_front.png"); 
+  background-repeat: no-repeat;
+  background-position: right 8px;
+  background-size: 82px 130px; */
+  text-align: right;
+  height: 150px;
+  padding-top: 18px;
+  /* padding-right: 100px; */
+  color: #ddd;
+  text-shadow: 1px 1px black;
+  width: 1070px;
+}
+
+#block-block-13 h2 {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+}
+
+#cws-page {
+  background-repeat: repeat-x;
+  background-color: #004480;
+  margin: 0;
+  padding: 0;
+  left: auto;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 16px;
+  height: 32px;
+  vertical-align: middle;
+  border-bottom: 3px solid #aaa;
+}
+
+#cws-branding {
+  background-image: url("../images/delta_banner.jpg");
+  background-repeat: repeat-x;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  left: auto;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 16px;
+  height: 152px;
+  vertical-align: middle;
+  border-bottom: 3px solid #aaa;
+}
+
+#navbar {
+  margin-bottom: 1px;
+}
+
+.navbar-btn {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.navbar .logo {
+  padding-right: 10px;
+}
+  
+/**
+ * Custom Styles
+ */
+.ucdavis_rollover a {
+    background-image: url(/static/ucd/small/ucdavis_logo_blue.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    background-position: 0% 50%;
+}
+
+.ucdavis_rollover a:link {
+    background-image: url(/static/ucd/small/ucdavis_logo_blue.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    background-position: 0% 50%;
+}
+
+.ucdavis_rollover a:visited {
+    background-image: url(/static/ucd/small/ucdavis_logo_blue.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    background-position: 0% 50%;
+}
+
+.ucdavis_rollover a:hover {
+    background-image: url(/static/ucd/small/ucdavis_logo_gold.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    background-position: 0% 50%;
+}
+.external-link {
+    background-image: url(/static/ui/misc/external_link.png);
+    background-repeat: no-repeat;
+    display: inline;
+    background-position: 0 0;
+    padding-right: 16px;
+}
+.view-projects .views-field-field-proj-image {
+    width: 10%;
+}
+.views-field-field-user-department {
+    font-size: smaller;
+}
+.view-people {
+    width: 100%;
+}
+.view-people td.col-1,
+.view-people td.col-2,
+.view-people td.col-3 {
+    width: 33%;
+    padding: 12px;
+}
+.view-display-id-block_2 .views-field-field-news-image {
+    width: 120px;
+}
+.navbar-nav li a {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.social_media_links {
+    height: 42px;
+}
+h2.block-title {
+  font-size: 22px;
+}

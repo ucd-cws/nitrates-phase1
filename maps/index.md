@@ -36,15 +36,15 @@ report, and carry the same figure numbers.
 | Figure 4. Current typical annual fertilization rates (1 kg/ha/yr = 1.1 lbs/ac/yr) in irrigated agricultural cropland of the study area. |
 
 <br />
+ 
  [![Figure 5](figure05.png)](figure05.html) |
  --- |
- Figure 5. Simulated synthetic fertilizer application on cropland, including alfalfa, after accounting for the application of manure as fertilizer on dairy cropland. |
+ Figure 5. Current annual nitrogen removal rate in harvested materials (1 kg/ha/yr = 1.1 lbs/ac/yr) derived from county reports of harvested area and harvested tonnage for each of 58 crop categories. |
  
  [![Figure 8](figure08.png)](figure08.html) |
  --- |
- Figure 8. Simulated land applied N from dairy manure (land applied on dairy cropland), and from WWTP/FP effluent and biosolids. This map represents results for the hypothetical “Scenario D” (all manure is land applied on dairies, representing 62% of animal N excretion, no manure is exported from dairies). |
+ Figure 8. Septic-derived nitrate leaching rates within the study area. |
  
-
  [![Figure 9](figure09.png)](figure09.html) |
  --- |
  Figure 9. Simulated synthetic fertilizer application on cropland, including alfalfa, after accounting for the application of manure as fertilizer on dairy cropland. |

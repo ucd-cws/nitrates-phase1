@@ -1,6 +1,17 @@
 ---
-layout: default
+layout: cws-default
 title: README
+navigation:
+  - label: Figure 2
+    id: fig2
+  - label: Figure 4
+    id: fig4
+  - label: Figure 5
+    id: fig5
+  - label: Figure 8
+    id: fig8
+  - label: Figure 9
+    id: fig9
 ---
 
 # Nitrates Maps
@@ -14,21 +25,17 @@ report, and carry the same figure numbers.
 
 ## Online Maps
 
-[![Figure 2](figure02.png)](figure02.html) |
- --- |
- Figure 2. Overview of Crop types for 2010. |
+| <a href="figure02.html" id="fig2"><img src="figure02.png" class="img-responsive" /></a> |
+| --- |
+| Figure 2. Overview of Crop types for 2010. |
 
- [![Figure 4](figure04.png)](figure04.html) |
- --- |
- Figure 4. Current typical annual fertilization rates (1 kg/ha/yr = 1.1 lbs/ac/yr) in irrigated agricultural cropland of the study area. |
+<br />
 
- [![Figure 5](figure05.png)](figure05.html) |
- --- |
- Figure 5. Current annual nitrogen removal rate in harvested materials.|
+| <a href="figure04.html"><img src="figure04.png" class="img-responsive" /></a> |
+| --- |
+| Figure 4. Current typical annual fertilization rates (1 kg/ha/yr = 1.1 lbs/ac/yr) in irrigated agricultural cropland of the study area. |
 
- [![Figure 8](figure08.png)](figure08.html) |
- --- |
- Figure 8. Septic-derived nitrate leaching rates within the study area. |
+<br />
 
  [![Figure 9](figure09.png)](figure09.html) |
  --- |

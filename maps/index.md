@@ -1,17 +1,6 @@
 ---
 layout: cws-default
 title: README
-navigation:
-  - label: Figure 2
-    id: fig2
-  - label: Figure 4
-    id: fig4
-  - label: Figure 5
-    id: fig5
-  - label: Figure 8
-    id: fig8
-  - label: Figure 9
-    id: fig9
 ---
 
 # Nitrates Maps
